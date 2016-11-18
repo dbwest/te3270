@@ -95,7 +95,7 @@ ensure the key for an entry in the `Hash` matches the name you gave a text field
 find and set the value.  This allows the gem to easily work with the DataMagic gem.
 
     # given this Hash
-    my_data = { userid: 'the_id', password: 'the_password' }
+    my_date = { userid: 'the_id', password: 'the_password' }
 
     # you can simply call this method
     on(MainframeScreen).populate_screen_with my_data
